@@ -1,1 +1,15 @@
-{"license": "", "description": "", "contributors": [], "author": "wentasah", "url": "", "dependencies": ["api-utils", "addon-kit"], "version": "initial.rev98", "lib": "lib", "fullName": "lwn.net test", "main": "main", "id": "jid0-YDcYz9iHv1TNQny0UBVkaTkS42Y", "name": "lwnnet-test"}
+{
+    "license": "GPLv2",
+    "description": "Adds multiple articles from LWN.net to the reading list",
+    "contributors": [],
+    "author": "Michal Sojka",
+    "url": "https://github.com/wentasah",
+    "dependencies": ["api-utils",
+		     "addon-kit"],
+    "version": "initial.rev98",
+    "lib": "lib",
+    "fullName": "LWN.net reader",
+    "main": "main",
+    "id": "jid0-YDcYz9iHv1TNQny0UBVkaTkS42Y",
+    "name": "lwnnet-reader"
+}
