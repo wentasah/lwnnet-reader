@@ -1,6 +1,6 @@
 var xpathResult = document.evaluate('//div[@class="ArticleText"]/h2[@class="SummaryHL"]/a',
                                      document, null, XPathResult.ORDERED_NODE_SNAPSHOT_TYPE, null);
-console.log("There are "+xpathResult.snapshotLength+"headlines!!");
+// console.log("There are "+xpathResult.snapshotLength+" headlines");
 if (xpathResult.snapshotLength > 0) {
     var headlines = [];
     for (var i=0; i < xpathResult.snapshotLength; i++) {
