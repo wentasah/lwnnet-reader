@@ -1,6 +1,6 @@
 {
     "license": "GPLv2",
-    "description": "Allow adding multiple articles from LWN.net to the reading list.",
+    "description": "Allow adding multiple articles from LWN.net to the reading list for offline reading.",
     "contributors": [],
     "author": "Michal Sojka",
     "url": "https://github.com/wentasah",
