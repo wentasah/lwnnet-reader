@@ -6,7 +6,7 @@
     "url": "https://github.com/wentasah/lwnnet-reader",
     "dependencies": ["api-utils",
 		     "addon-kit"],
-    "version": "rev19",
+    "version": "devel",
     "lib": "lib",
     "fullName": "LWN.net reader",
     "main": "main",
