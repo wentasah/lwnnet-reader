@@ -6,7 +6,7 @@
     "url": "https://github.com/wentasah/lwnnet-reader",
     "dependencies": ["api-utils",
 		     "addon-kit"],
-    "version": "rev17",
+    "version": "rev19",
     "lib": "lib",
     "fullName": "LWN.net reader",
     "main": "main",
@@ -19,6 +19,13 @@
 	    "type": "bool",
 	    "name": "add",
 	    "value": true
+	},
+	{
+	    "title": "Storing delay",
+	    "description": "Number of seconds between adding articles to reading list. Workaround to maintain the order of articles.",
+	    "name": "delay",
+	    "type": "integer",
+	    "value": 2
 	},
 	{
 	    "title": "Open articles in tabs?",
