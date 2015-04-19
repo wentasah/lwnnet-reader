@@ -21,11 +21,11 @@
 	    "value": true
 	},
 	{
-	    "title": "Storing delay",
-	    "description": "Number of seconds between adding articles to reading list. Workaround to maintain the order of articles.",
-	    "name": "delay",
-	    "type": "integer",
-	    "value": 2
+	    "title": "Reverse order",
+	    "description": "Reading list is sorted in LIFO order. If you prefer FIFO order, this reverses the order of adding articles.",
+	    "type": "bool",
+	    "name": "reverse",
+	    "value": true
 	},
 	{
 	    "title": "Open articles in tabs?",
